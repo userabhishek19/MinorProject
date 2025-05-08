@@ -43,7 +43,7 @@ const Demo: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a
-              href="http://localhost:8502"
+              href="http://localhost:8501"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-block px-5 py-2.5 text-sm font-medium text-white bg-gray-900 hover:bg-blue-900 rounded-lg shadow transition duration-200"
@@ -51,7 +51,7 @@ const Demo: React.FC = () => {
               Open Local URL
             </a>
             <a
-              href="http://192.168.4.125:8502"
+              href="http://192.168.29.33:8501"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-block px-5 py-2.5 text-sm font-medium text-white bg-gray-900 hover:bg-blue-900 rounded-lg shadow transition duration-200"

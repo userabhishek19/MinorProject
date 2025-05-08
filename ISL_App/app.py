@@ -24,21 +24,21 @@ mp_drawing = mp.solutions.drawing_utils
 
 # Streamlit app
 st.title("Indian Sign Language Recognition")
-st.sidebar.title("Controls")
+# st.sidebar.title("Controls")
 
 # Initialize session state
 if 'sentence' not in st.session_state:
     st.session_state.sentence = ''
 
 # Buttons
-if st.sidebar.button("Add Space"):
-    st.session_state.sentence += ' '
+# if st.sidebar.button("Add Space"):
+#    st.session_state.sentence += ' '
 
-if st.sidebar.button("Clear Sentence"):
-    st.session_state.sentence = ''
+# if st.sidebar.button("Clear Sentence"):
+#     st.session_state.sentence = ''
 
 # Display the current sentence
-st.markdown(f"### Sentence: {st.session_state.sentence}")
+# st.markdown(f"### Sentence: {st.session_state.sentence}")
 
 # Start video capture
 cap = cv2.VideoCapture(0)
